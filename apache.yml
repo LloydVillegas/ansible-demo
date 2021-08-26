@@ -1,6 +1,7 @@
 ---
 - hosts: webservers 
-  become: True
+  become: yes
+  become_user: asadmin
   tasks:
     - name: Install packages
       yum:
