@@ -1,11 +1,10 @@
 ---
 - hosts: webservers 
   become: yes
-  #become_user: asadmin
   tasks:
     - name: Install packages
       apt:
-        name: "httpd"
+        name: "apache2"
         state: "present"
     - name: Start Apache server
       service:
