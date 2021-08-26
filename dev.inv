@@ -1,2 +1,2 @@
 [webservers]
-192.168.246.142 ansible_user=asadmin ansible_password=password 
+192.168.246.142 ansible_user=asadmin
